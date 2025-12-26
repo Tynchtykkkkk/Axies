@@ -1,0 +1,78 @@
+#animals{
+    margin-top: 100px;
+}
+
+.ani-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    gap: 500px;
+}
+.ani-text a{
+    color: white;
+    text-decoration: underline;
+}
+.animal-cards{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.animal-card{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: rgba(128, 128, 128, 0.463);
+    width: 300px;
+    height: 340px;
+    border-radius: 20px;
+    color: white;
+}
+.bear{
+    width: 220px;
+    margin-left: px;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 220px;
+}
+.olen{
+    width: 210px;
+    margin-left: px;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 210px;
+}
+.bomb{
+    width: 210px;
+    margin-left: px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.creator{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .eth p{
+        color: rgb(164, 161, 161);
+    }
+}
+.creator img{
+    width: 40px;
+    height: 60px;
+    border-radius: 10px;
+}
+.bsc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+.bsc button{
+color: white;
+background: rgb(61, 61, 255);
+border: none;
+padding: 5px;
+border-radius: 5px;
+}
