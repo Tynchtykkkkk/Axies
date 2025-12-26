@@ -44,3 +44,9 @@ body{
 .btns button:hover{
     transform: scale(1.2);
 }
+.animal-card{
+    transition: transform 0.3s ease;
+}
+.animal-card:hover{
+    transform: scale(1.1);
+}
