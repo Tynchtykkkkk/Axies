@@ -4,6 +4,7 @@
 
 body{
     background: rgb(42, 42, 48);
+    background-color:#13141f;
 }
 #header{
     margin-top: 15px;
@@ -75,14 +76,4 @@ body{
     width: 10px;
     margin-left: 7px;
     
-}
-
-#hero{
-    color: white;
-}
-
-.hero{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
