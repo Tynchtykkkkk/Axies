@@ -1,0 +1,15 @@
+.nav a{
+    transition: transform 1s ease forward;    
+    
+}
+
+.nav a:hover{
+    transform: scale(1.1);
+}
+
+.day img{
+    transition: day transform 1s ease forward;
+}
+.day img:hover{
+    transform: scale(1.2);
+}
