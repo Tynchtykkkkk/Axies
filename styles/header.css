@@ -1,3 +1,11 @@
+.container{
+    max-width: 1280px;
+}
+
+body{
+    background: rgb(42, 42, 48);
+    background-color:#13141f;
+}
 #header{
     margin-top: 15px;
     border-bottom: 1px solid gray;
