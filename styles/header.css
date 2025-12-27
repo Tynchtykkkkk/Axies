@@ -23,12 +23,12 @@ body{
     gap: 2px;
 }
 .axies img{
-    width: 50px;
+    width: 140px;
 }
 .search{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 .search button{
     
@@ -38,7 +38,7 @@ body{
     height: 50px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 7px;
     background: rgb(42, 42, 48);
     border-radius: 25px;
     color: white;
