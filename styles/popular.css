@@ -1,0 +1,150 @@
+    button {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2px;
+    }
+
+    .today1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        padding: 40px 0;
+
+        h1 {
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        button {
+            font-size: 15px;
+            border: none;
+            color: white;
+            background: rgb(18, 0, 39);
+            border-bottom: 2px solid;
+            padding: 5px 0;
+            transition: 0.7s;
+        }
+
+        button:hover {
+            color: royalblue;
+
+        }
+    }
+
+    .all-collect {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .collection {
+        position: relative;
+        top: 0;
+        right: 0;
+        background: rgb(65, 67, 85);
+        width: 380px;
+        height: 340px;
+        border-radius: 16px;
+        padding: 10px;
+
+        .soul {
+            position: absolute;
+            top: 10px;
+            right: 22px;
+
+            button {
+                padding: 4px 8px;
+                border-radius: 6px;
+                border: none;
+                color: rgb(255, 255, 255);
+                background: rgba(0, 0, 0, 0.638);
+
+                ion-icon:active {
+                    color: red;
+                }
+            }
+        }
+
+        .collect-up {
+            display: flex;
+            align-items: center;
+            padding-right: 50px;
+
+            .creative-img {
+                padding-bottom: 10px;
+
+                img {
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 20px;
+                }
+            }
+
+            .creative {
+                h2 {
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: rgba(236, 234, 234, 0.999);
+                    transition: 0.7s;
+                    padding: 0 0 3px 10px;
+                }
+
+                h2:hover {
+                    color: rgb(92, 6, 179);
+                }
+
+                h3 {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: rgba(255, 255, 255, 0.864);
+                    padding-bottom: 20px;
+
+                    span {
+                        font-size: 15px;
+                        font-weight: 500;
+                        color: rgb(149, 149, 149);
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+
+        .all-img {
+            display: flex;
+            align-items: center;
+
+            .left-coll {
+                img {
+                    width: 180px;
+                    height: 260px;
+                    border-radius: 10px;
+                }
+            }
+
+            .right-coll {
+                padding-left: 8px;
+
+                .up-coll {
+                    padding-bottom: 4px;
+
+                    img {
+                        width: 90px;
+                        height: 90px;
+                        border-radius: 10px;
+                        margin: 1.8px;
+                    }
+                }
+
+                .down-coll {
+                    img {
+                        width: 190px;
+                        height: 160px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
