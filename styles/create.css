@@ -1,0 +1,30 @@
+#create {
+    background-color:#13141f;
+    height: 345px;
+    .create {
+    padding: 30px 0;
+    }
+    h1 {
+        padding: 0 30px;
+        color: white;
+    }
+}
+.all-create {
+    display: flex;
+    gap: 40px;
+    padding: 40px 30px;
+    img {
+        height: 64px;
+        width: 64px;
+        border-radius: 15px;
+    }
+    h3 {
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    p {
+        color: #9c9c9c;
+        font-size: 14px;
+    }
+}
