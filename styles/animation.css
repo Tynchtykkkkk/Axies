@@ -1,0 +1,58 @@
+body{
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+.axies {
+    animation: pulse 1.5s infinite;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.08);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.nav a{
+    transition: transform 1s ease forward;    
+    
+}
+
+.nav a:hover{
+    transform: scale(1.1);
+}
+
+.day img{
+    transition: day transform 1s ease forward;
+}
+.day img:hover{
+    transform: scale(1.2);
+}
+
+.btns button{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.btns button:hover{
+    transform: scale(1.2);
+}
+.animal-card{
+    transition: transform 0.3s ease;
+}
+.animal-card:hover{
+    transform: scale(1.1);
+}
+.men{
+    transition: transform 0.3s ease;
+}
+.men:hover{
+    transform: scale(1.1);
+}

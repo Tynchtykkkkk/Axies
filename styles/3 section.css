@@ -1,0 +1,47 @@
+#people{
+    margin-top: 100px;
+    color: white;
+}
+
+.seller{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 600px;
+}
+.direct img{
+    width: 40px;
+}
+.peoples{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+.men{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    .men2{
+    width: 100px;
+}
+.babe{
+    width: 110px;
+    height: 100px;
+}
+.indus{
+    width: 100px;
+}
+.arab{
+    width: 100px;
+}
+}
+.men p{
+    color: gray;
+}
+.men img{
+    width: 120px;
+    border-radius: 25px;
+}
