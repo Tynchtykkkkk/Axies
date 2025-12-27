@@ -1,0 +1,84 @@
+footer {
+  background: black;
+  height: 430px;
+}
+
+.footer {
+  display: flex;
+  gap: 150px;
+  .footer-ax {
+    padding: 0 30px;
+    margin-top: 90px;
+  }
+  .icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+  }
+  p {
+    color: rgb(214, 214, 214);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  h4 {
+    color: white;
+    margin-top: 100px;
+    font-size: 14px;
+  }
+  a {
+    color: aliceblue;
+    display: flex;
+    font-size: 15px;
+  }
+  .footer-acc {
+    line-height: 3;
+    margin-left: -20px;
+  }
+}
+.email-box {
+  display: flex;
+  align-items: center;
+  background: #000;
+  border-radius: 14px;
+  padding: 4px;
+  width: 380px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.email-box input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #bdbdbd;
+  padding: 14px 16px;
+  font-size: 16px;
+}
+
+.email-box input::placeholder {
+  color: #7a7a7a;
+}
+
+.email-box button {
+  background: linear-gradient(135deg, #5b5cff, #7a5cff);
+  border: none;
+  color: white;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.email-box button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
