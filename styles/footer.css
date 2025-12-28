@@ -7,6 +7,7 @@ footer {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  animation: foot 1.5s forwards;
   .footer-ax {
     padding: 0 30px;
     margin-top: 90px;

@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: space-around;
     color: white;
+    animation: header 1s forwards;
 }
 .axies{
     display: flex;

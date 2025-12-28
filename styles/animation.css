@@ -1,58 +1,200 @@
-body{
-    opacity: 0;
-    animation: fadeIn 2s ease forwards;
+body {
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
 }
-@keyframes fadeIn{
-    to{
-        opacity: 1;
-    }
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 .axies {
-    animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
 }
-@keyframes pulse{
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.08);
-    }
-    100%{
-        transform: scale(1);
-    }
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
-.nav a{
-    transition: transform 1s ease forward;    
-    
-}
-
-.nav a:hover{
-    transform: scale(1.1);
+.nav a {
+  transition: transform 1s ease forward;
 }
 
-.day img{
-    transition: day transform 1s ease forward;
-}
-.day img:hover{
-    transform: scale(1.2);
+.nav a:hover {
+  transform: scale(1.1);
 }
 
-.btns button{
-    cursor: pointer;
-    transition: transform 0.3s ease;
+.day img {
+  transition: day transform 1s ease forward;
 }
-.btns button:hover{
-    transform: scale(1.2);
+.day img:hover {
+  transform: scale(1.2);
 }
-.animal-card{
-    transition: transform 0.3s ease;
+
+.btns button {
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
-.animal-card:hover{
-    transform: scale(1.1);
+.btns button:hover {
+  transform: scale(1.2);
 }
-.men{
-    transition: transform 0.3s ease;
+.animal-card {
+  transition: transform 0.3s ease;
 }
-.men:hover{
-    transform: scale(1.1);
+.animal-card:hover {
+  transform: scale(1.1);
+}
+.men {
+  transition: transform 0.3s ease;
+}
+.men:hover {
+  transform: scale(1.1);
+}
+.cart {
+  transition: transform 0.3s ease;
+}
+.cart:hover {
+  transform: scale(1.1);
+}
+.baby {
+  transition: transform 0.3s ease;
+}
+.baby:hover {
+  transform: scale(1.1);
+}
+@keyframes header {
+  from {
+    transform: translateY(-100px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes hero {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes NFT {
+  from {
+    transform: translateX(500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes cart {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes baby {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes up {
+  from {
+    transform: translateX(500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes pick {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes popul {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes coll {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes create {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes all {
+  from {
+    transform: translateX(500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes foot {
+  from {
+    transform: translateY(400px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes ani {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes animal {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes sell {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0);
+  }
 }

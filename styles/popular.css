@@ -12,6 +12,7 @@
         justify-content: space-between;
         color: white;
         padding: 40px 0;
+        animation: popul 1.5s forwards;
 
         h1 {
             font-size: 40px;
@@ -49,7 +50,7 @@
         height: 340px;
         border-radius: 16px;
         padding: 10px;
-
+        animation: coll 1.5s ease-out;
         .soul {
             position: absolute;
             top: 10px;

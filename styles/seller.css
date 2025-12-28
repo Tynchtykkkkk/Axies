@@ -1,6 +1,7 @@
 #people{
     margin-top: 100px;
     color: white;
+    animation: sell 1.5s forwards;
 }
 
 .seller{

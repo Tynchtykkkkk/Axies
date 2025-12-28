@@ -11,6 +11,7 @@ button {
   justify-content: space-between;
   color: white;
   padding: 50px 0 10px 0;
+  animation: pick 1.5s forwards;
   h1{
   font-size: 35px;
   font-weight: 600;
@@ -35,6 +36,7 @@ button {
   align-items: center;
   justify-content: space-between;
   padding: 25px 0;
+  animation: up 1.5s forwards;
   button{
   display: flex;
   align-items: center;
@@ -69,6 +71,7 @@ button {
   background: rgb(43, 45, 63);
   padding: 10px;
   border-radius: 16px;
+  animation: cart 2s ease-out;
   .img {
     display: flex;
     align-items: center;
@@ -206,6 +209,7 @@ button {
   padding: 10px;
   border-radius: 16px;
   margin-bottom: 40px;
+  animation: baby 2s ease-out;
   .img {
     display: flex;
     align-items: center;
