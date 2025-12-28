@@ -5,9 +5,23 @@
 .ani-text{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
-    gap: 500px;
+    h1{
+    font-size: 35px;
+    font-weight: 600;
+    }
+    h2{
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-bottom: 2px solid;
+    padding: 5px 0;
+    transition: 0.7s;
+    }
+    h2:hover{
+      color: royalblue;
+    }
 }
 .ani-text a{
     color: white;
@@ -17,47 +31,128 @@
     margin-top: 50px;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
-.animal-card{
+.animal-card {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    background: rgba(128, 128, 128, 0.463);
-    width: 300px;
-    height: 340px;
-    border-radius: 20px;
-    color: white;
-}
-.bear{
-    width: 220px;
-    margin-left: px;
-    border-radius: 20px;
-    margin-top: 10px;
-    height: 220px;
-}
-.olen{
-    width: 210px;
-    margin-left: px;
-    border-radius: 20px;
-    margin-top: 10px;
-    height: 210px;
-}
-.bomb{
-    width: 210px;
-    margin-left: px;
-    border-radius: 20px;
-    margin-top: 10px;
-}
-.creator{
-    font-size: 13px;
+    width: 280px;
+    height: 350px;
+    background: rgb(43, 45, 63);
+    padding: 10px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+  .creat-img {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    .eth p{
-        color: rgb(164, 161, 161);
+    justify-content: center;
+    position: relative;
+    top: 0;
+    right: 0;
+    img {
+      width: 255px;
+      height: 255px;
+      border-radius: 10px;
     }
+    .time{
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    right: 85px;
+    button{
+    padding: 8px 25px;
+    border-radius: 10px;
+    background: #00001a;
+    color: white;
+    border: none;
+    ion-icon{
+    color: blue;
+    }    
+    }
+    }
+    .heart{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    button{
+      padding: 4px 8px;
+      border-radius: 6px;
+      border: none;
+      color: rgb(255, 255, 255);
+      background: rgb(0, 0, 0);
+      ion-icon:active{
+      color: red;
+      }
+    }
+    }
+  }
+  .bsc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 8px;
+    h1 {
+      font-weight: 600;
+      font-size: 14px;
+      color: rgb(255, 255, 255);
+      transition: 0.7s;
+    }
+    h1:hover{
+      color: rgb(92, 6, 179);
+    }
+    button {
+      padding: 4px 8px;
+      border-radius: 6px;
+      border: none;
+      color: rgb(255, 255, 255);
+      background: rgb(92, 6, 179);
+      transition: 0.7s;
+    }
+    button:hover{
+      color: rgb(92, 6, 179);
+      background: rgb(255, 255, 255);
+    }
+  }
+  .creator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    .mini-img {
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 8px;
+      }
+    }
+    .midle-creat{
+    h2{
+    padding: 0 45px 0 0;
+    font-size: 12px;
+    color: rgba(134, 134, 134, 0.903);
+    span{
+    font-size: 14px;
+    color: rgba(211, 210, 210, 0.922);
+    transition: 0.7s;
+    }
+    span:hover{
+      color: rgb(92, 6, 179);
+    }
+    }
+    }
+    .eth{
+    h2{
+    font-size: 11px;
+    color: rgba(134, 134, 134, 0.903);
+    span{
+    font-size: 14px;
+    color: rgb(219, 219, 219);
+    }
+    }
+    }
+  }
 }
+
 .creator img{
     width: 40px;
     height: 60px;

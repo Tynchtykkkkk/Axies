@@ -5,7 +5,8 @@ footer {
 
 .footer {
   display: flex;
-  gap: 150px;
+  justify-content: space-between;
+  gap: 50px;
   .footer-ax {
     padding: 0 30px;
     margin-top: 90px;
@@ -26,8 +27,10 @@ footer {
     color: white;
     margin-top: 100px;
     font-size: 14px;
+    padding-left: 40px;
   }
   a {
+    padding: 0 40px;
     color: aliceblue;
     display: flex;
     font-size: 15px;
